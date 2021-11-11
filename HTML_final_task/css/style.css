@@ -8,6 +8,7 @@ body {
     margin-right: auto;
     height: 500px;
     background: url("../images/banner.jpg");
+    opacity: 0.8;
 }
 
 .bannername {
