@@ -1,6 +1,62 @@
+body {
+    border-style: solid;
+    
+    margin: auto;
+}
+
 .banner {
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
     border-style: solid;
-    position: inherit;
+    background: url("../images/banner.jpg");
+    
+}
+
+.bannername {
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 180px;
+    font-size: 135px;
+    text-shadow: 2px 2px red;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 1px;
+    left: 500px;
+    margin-right: auto;
+}
+
+nav li {
+    font-weight: bolder;
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 8px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+main h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: lightyellow;
+    vertical-align: bottom;
+}
+
+footer h3 {
+    text-align: center;
 }
