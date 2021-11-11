@@ -44,8 +44,12 @@ nav li {
     border-radius: 5px;
 }
 
-main {
+nav li:hover {
     background-color: lightgreen;
+}
+
+main {
+    background-color: lightskyblue;
 }
 
 main h3 {
@@ -53,7 +57,7 @@ main h3 {
 }
 
 footer {
-    background-color: lightyellow;
+    background-color: yellow;
     vertical-align: bottom;
 }
 
