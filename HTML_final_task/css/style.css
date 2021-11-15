@@ -43,6 +43,8 @@ nav li {
 
 nav li:hover {
     background-color: lightgreen;
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
 }
 
 main {
@@ -74,9 +76,12 @@ main {
 }
 
 .contatenos {
-    padding: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 700px;
+    margin: 20px auto 20px auto;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 1px 15px 1px 15px;
+    background-color: lightgray;
 }
 
 .tabela {
@@ -85,23 +90,10 @@ main {
     margin: 0px 200px 0px 280px;
 }
 
-.tabela2 {
-    border-collapse: collapse;
-    table-layout: fixed;
-    margin: 0px 200px 0px 400px;
-}
 .tablehead td {
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
-}
-
-.idusuario {
-    text-align: left;
-}
-
-.fieldmensagem {
-    text-align: left;
 }
 
 #cMensagem {
@@ -111,9 +103,14 @@ main {
 }
 
 fieldset {
+    margin-top: 30px;
+    background: lightsteelblue;
+}
+
+.fieldset {
+    text-align: left;
     border: 1px solid blue;
     border-radius: 5px;
-    margin-top: 30px;
 }
 
 legend {
@@ -122,6 +119,7 @@ legend {
     border: 1px solid black;
     border-radius: 5px;
     background: blue;
+    text-align: left;
 }
 
 footer {
@@ -140,4 +138,9 @@ footer ul {
 footer li {
     display: inline-block;
     padding: 0px 5px 0px 5px;
+}
+
+footer img:hover {
+    transform: scale(1.5);
+    transition: ease-in-out .8s;
 }
