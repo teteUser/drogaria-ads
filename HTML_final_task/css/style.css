@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    background: url("../images/pharmacy.jpg");
 }
 
 .banner {
@@ -8,14 +9,13 @@ body {
     margin-right: auto;
     height: 500px;
     background: url("../images/banner.jpg");
-    opacity: 0.8;
 }
 
 .bannername {
     text-align: center;
     font-variant: small-caps;
     font-size: 135px;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px blue;
     padding-top: 180px;
 }
 
@@ -28,9 +28,7 @@ nav ul {
     position: relative;
     list-style: none;
     text-transform: uppercase;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0px auto;
     text-align: center;
 }
 
@@ -48,18 +46,74 @@ nav li:hover {
 }
 
 main {
-    background-color: lightskyblue;
+    background-color: lightsteelblue;
+    max-width: 1080px;
+    margin: 0px auto 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: calc(100vh - 120px);
+    opacity: .98;
+    text-align: center;
 }
 
-main h3 {
+.quemsomos {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.produtos {
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.duvidas {
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contatenos {
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabela {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0px 200px 0px 280px;
+}
+
+.tabela2 {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0px 200px 0px 400px;
+}
+.tablehead td {
     text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.idusuario {
+    text-align: left;
 }
 
 footer {
-    background-color: yellow;
+    background-color: orange;
     vertical-align: bottom;
+    margin-top: 0px;
+    padding: 1px 1px;
+    display: block;
+    text-align: center;
 }
 
-footer h3 {
-    text-align: center;
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
 }
