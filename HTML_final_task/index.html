@@ -58,17 +58,23 @@
             <h1>CONTATE-NOS</h1>
             
             <form action="">
+
                 <fieldset class="idusuario">
                     <legend>Identificação do usuário</legend>
-                    <p>Nome:</p>
-                    <p>Sobrenome:</p>
-                    <p>Email:</p>
-                    <p>Telefone:</p>
-                </fieldset>
-                <fieldset>
-                    <legend>Mensagem</legend>
+                    <p><label for="cNome">Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome"></label></p>
+                    <p><label for="cSobrenome">Sobrenome: <input type="text" name="tSobrenome" id="cSobrenome" size="20" maxlength="60" placeholder="Sobrenome"></label></p>
+                    <p><label for="cEmail">Email: <input type="email" name="tEmail" id="cEmail" size="30" maxlength="50" placeholder="Email"></label></p>
+                    <p><label for="cTelefone">Telefone: <input type="tel" name="tTelefone" id="cTelefone" size="14" maxlength="16" placeholder="(99) 9 9999-9999"></label></p>
                 </fieldset>
 
+                <fieldset class="fieldmensagem">
+                    <legend>Mensagem</legend>
+                    <p><label for="cMensagem">Digite a sua mensagem: <input type="text" name="tMensagem" id="cMensagem" size="900" maxlength="900" placeholder="Mensagem"></label></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend></legend>
+                </fieldset>
 
             </form>
             
@@ -76,15 +82,15 @@
 
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="http://www.facebook.com" target="_blank"><img src="images/icons/facebookIcon.png" alt="icone do facebook"></a></li>
-            <li><a href="http://www.twitter.com" target="_blank"><img src="images/icons/twitterIcon.png" alt="icone do twitter"></a></li>
-            <li><a href="http://www.instagram.com" target="_blank"><img src="images/icons/instagramIcon.png" alt="icone do instagram"></a></li>
-            <li><a href="http://www.youtube.com" target="_blank"><img src="images/icons/youtubeIcon.png" alt="icone do youtube"></a></li>
-            <li><a href="https://web.whatsapp.com/" target="_blank"><img src="images/icons/whatsappIcon.png" alt="icone do whatsapp"></a></li>
-        </ul>
-    </footer>
+        <footer>
+            <ul>
+                <li><a href="http://www.facebook.com" target="_blank"><img src="images/icons/facebookIcon.png" alt="icone do facebook"></a></li>
+                <li><a href="http://www.twitter.com" target="_blank"><img src="images/icons/twitterIcon.png" alt="icone do twitter"></a></li>
+                <li><a href="http://www.instagram.com" target="_blank"><img src="images/icons/instagramIcon.png" alt="icone do instagram"></a></li>
+                <li><a href="http://www.youtube.com" target="_blank"><img src="images/icons/youtubeIcon.png" alt="icone do youtube"></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><img src="images/icons/whatsappIcon.png" alt="icone do whatsapp"></a></li>
+            </ul>
+        </footer>
 
 </body>
 </html>
