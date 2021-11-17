@@ -38,6 +38,7 @@ nav ul {
 
 nav li {
     font-weight: bolder;
+    color: black;
     display: inline-block;
     background-color: lightgray;
     padding: 5px;
@@ -58,7 +59,7 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     min-height: calc(100vh - 120px);
-    opacity: .98;
+    opacity: .99;
     text-align: center;
 }
 
@@ -66,11 +67,6 @@ main {
     padding: 5px;
     margin-bottom: 20px;
 }
-
-/*@font-face {
-    font-family: 'Estonia';
-    src: url(../fonts/Estonia-Regular.ttf) format('truetype');
-}*/
 
 .quemsomos p {
     font-size: 28px;
@@ -95,11 +91,6 @@ main {
     display: inline-block;
 }
 
-.segundafileira div {
-    position: relative;
-    display: inline-block;
-}
-
 .produtos a {
     position: relative;
 }
@@ -108,6 +99,7 @@ main {
     margin: 25px 25px 15px 25px;
     border-radius: 15px;
     position: relative;
+    opacity: 1;
 }
 
 .produtos img:hover {
@@ -121,14 +113,6 @@ main {
     margin: 150px 10px 150px 10px;
 }
 
-.contatenos {
-    max-width: 700px;
-    margin: 50px auto 20px auto;
-    border: 1px solid green;
-    border-radius: 15px;
-    padding: 1px 15px 1px 15px;
-    background-color: lightgray;
-}
 
 .divtabela {
     border-collapse: collapse;
@@ -151,14 +135,36 @@ main {
     font-size: 25px;
 }
 
+.sectionframeclass {
+    margin: 0px auto 50px auto;
+}
+
+.sectionframeclass h4 {
+    font-size: 20px;
+}
+
+.sectionframeclass iframe {
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+}
+
 #cMensagem {
     max-width: 300px;
     height: 200px;
     vertical-align: top;
 }
 
+.contatenos {
+    max-width: 800px;
+    margin: 250px auto 10px auto;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 1px 15px 1px 15px;
+    background-color: lightgray;
+}
+
 fieldset {
-    margin-top: 30px;
+    margin: 30px 15px 20px 15px;
     background: lightsteelblue;
 }
 
@@ -179,7 +185,6 @@ legend {
 
 footer {
     background-color: orange;
-    vertical-align: bottom;
     margin-top: 0px;
     padding: 1px 1px;
     display: block;
