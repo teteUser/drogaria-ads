@@ -63,6 +63,20 @@ main {
     margin-bottom: 20px;
 }
 
+/*@font-face {
+    font-family: 'Estonia';
+    src: url(../fonts/Estonia-Regular.ttf) format('truetype');
+}*/
+
+.quemsomos p {
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 800px;
+    margin: 5px auto 5px auto;
+    text-indent: 25px;
+    text-align: justify;
+}
+
 .produtos {
     padding: 25px;
     margin-top: 20px;
