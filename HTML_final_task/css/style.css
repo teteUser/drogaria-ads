@@ -90,20 +90,24 @@ main {
 }
 
 .produtos {
-    padding: 15px 5px 15px 5px;
+    padding: 5px;
     margin: 150px auto 20px auto;
     display: inline-block;
 }
 
-.produtos figure {
-    width: 1000px;
-    margin: auto;
+.segundafileira div {
+    position: relative;
     display: inline-block;
 }
 
+.produtos a {
+    position: relative;
+}
+
 .produtos img {
-    margin: 25px;
+    margin: 25px 25px 15px 25px;
     border-radius: 15px;
+    position: relative;
 }
 
 .produtos img:hover {
